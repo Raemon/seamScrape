@@ -1,0 +1,87 @@
+body            { font-family: sans-serif; background: #eee; margin:0px;}
+body			{ 	background-image:url("/static/images/Replete_Providore.jpg"); 
+					background-attachment: fixed;
+					background-size: 100%
+				}
+h1, h2       	{ color: #FFFFFF; }
+
+h2              { font-size: 1.2em; }
+h1				{ font-size: 100px;}
+
+.header, footer {
+	background: #ff3019; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff3019 0%, #cf0404 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3019), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff3019 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+	color: #FFFFFF;
+}
+
+.header { 
+	text-align: center;
+	padding:50px 0px 50px 0px;
+	border-bottom: 8px solid #330000
+}
+
+.footer {
+	border-top: 4px solid #330000;
+	background: #ff3019; /* Old browsers */
+	font-size:10px;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	padding:5px;
+}
+
+.title {
+	text-shadow: 2px 4px 100px rgba(0,0,0,1);
+	font-family: 'Gill Sans';
+	font-size: 90px;
+	font-weight:700;
+	margin-bottom:30px;
+}
+.subtitle {
+	text-shadow: 2px 4px 25px rgba(0,0,0,.6);
+	font-size:25px;
+	font-family: "Helvetica Light";
+	font-style: italic;
+}
+.menuItem {
+	font-family:"Helvetica";
+	font-size:12px;
+	margin:5px;
+	color:green;
+}
+a {
+	color:#00DDCC;
+}
+.search { 
+	color:black; 
+	text-align: center;
+	padding-bottom:20px;	
+}
+
+.likes {
+	float:left;
+	text-align:right;
+	width:55px;
+	margin-right:10px;
+}
+.menuItem_link {
+
+}
+.price {
+	float:right;
+}
+
+.page           { margin: 6em auto; width: 500px; border: 5px solid #ccc;
+                  padding: 0.8em; background: rgba(255,255,255,1); border-radius: 15px;}
+.entries        { list-style: none; margin: 0; padding: 0; }
+.entries li     { margin: 0.8em 1.2em; }
+.entries li h2  { margin-left: -1em; }
+.add-entry dl   { font-weight: bold; }
+.metanav        { text-align: right; font-size: 0.8em; padding: 0.3em;
+                  margin-bottom: 1em; background: #fafafa; }
+.flash          { background: #CEE5F5; padding: 0.5em;
+                  border: 1px solid #AACBE2; }
+.error          { background: #F0D6D6; padding: 0.5em; }
+.footer			{ background: ;}

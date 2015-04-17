@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block body %}
+    <div class="page">
+      {% for item in entries %}
+        <div class="menuItem">
+          <span class="likes">{{ item.likes }} Likes</span>
+          <span class="menuItem_link">
+          	<a href="http://www.seamless.com/food-delivery/{{ item.vendor.id }}#{{item.name}}" target="_blank">{{ item.name }} ({{ item.vendor.name }})</a>
+          </span>
+          <span class="price">${{ item.price }}<span>
+        </div>
+      {% endfor %}
+    </div>
+{% endblock %}

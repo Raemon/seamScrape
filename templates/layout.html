@@ -1,0 +1,22 @@
+<!doctype html>
+<link rel="shortcut icon" href="{{ url_for('static', filename='images/crow.jpg?v=2') }}">
+
+<title>SeamScrape</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+<div class="header">
+  <div class="title">SeamScrape</div>
+  <div class="subtitle">Find the absolute best dishes on Seamless Web.</div>
+</div>
+
+<div class="page search">
+  <div class="search"> Searching Restaurants in {{ neighborhood }}:</div>
+  <form action="/" method=post class=add-entry>
+    <input type=text size=40 name=menuItem> <input type=submit value=Search>
+  </form>
+</div>
+
+{% block body %}{% endblock %}
+
+<div>
+  Background image courtesy of <a href="http://commons.wikimedia.org/wiki/File:Mini_Egg_and_Prosciutto_Tarts_at_Replete_Providore.jpg">Wikipedia commons.</a>
+</div>
